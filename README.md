@@ -6,4 +6,4 @@
 - Flexbox
 - Grid
 
-#### Ссылка на проделанную работу <https://jonathan2210.github.io/ono-tebe-nado/>
+#### Ссылка на проделанную работу <https://github.com/Jonathan2210/ono-tebe-nado.git>
