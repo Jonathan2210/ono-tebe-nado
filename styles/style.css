@@ -107,7 +107,7 @@
     line-height: 115%;
 }
 
-.jambotron__title_spacing-60 {
+.jambotron__title_spacing-extended {
     letter-spacing: 60px;
 }
 
@@ -263,6 +263,7 @@
     display: grid;
     grid-template-columns: 430px 1fr;
     column-gap: 25px;
+    row-gap: 25px;
 }
 
 .about__column-title {
@@ -273,21 +274,23 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin: 100px 0 0 0;
+    margin: 100px 0 100px 0;
 }
 
 .about__column-paragraph {
-    margin: 100px 0 0 0;
+    margin: 0 0 25px 0;
     color: black;
     font-family: Raleway, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: flex;
+    flex-direction: column;
 }
 
-.about__logo-column_margin-top25 {
-    margin: 25px 0 0 0;
+.about__column-paragraph:last-child {
+    margin-bottom: 0;
 }
 
 /* FOOOTER */
